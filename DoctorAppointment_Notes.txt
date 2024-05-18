@@ -1,0 +1,63 @@
+******Play List******* 
+URL = https://www.youtube.com/playlist?list=PLN4MUG0f6hp2N876AWqc_BJ0BQ5q6jQGW
+
+*********************************
+
+****To Create Client****
+npx create-react-app client
+
+****To Create Backend***
+npm init
+
+npm i express mongoose jsonwebtoken dotenv
+
+npm i nodemon
+
+******Mongo******************
+mongodb+srv://inspirationdev1:<password>@cluster0.ruea1z3.mongodb.net/
+****Mongodb***
+mongodb+srv://inspirationdev1:<password>@cluster0.ruea1z3.mongodb.net/
+DBName = doctorappointmentonhealth
+mongodb+srv://inspirationdev1:EWjFBzcrRkU8QZeB@cluster0.ruea1z3.mongodb.net/doctorappointmentonhealth
+**********
+
+
+npm i dotenv
+
+
+cd client
+npm i react-router-dom antd
+
+import 'antd/dist/antd.css';
+
+import 'antd/dist/reset.css';
+
+
+
+cd..
+npm i bcryptjs
+
+cd client
+\client> npm i axios redux redux-toolkit react-hot-toast
+
+\client> npm i react-redux
+
+\client> npm i @reduxjs/toolkit
+
+<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<i class="ri-home-line"></i>
+<i class="ri-file-list-line"></i>
+
+cd client
+\client> npm i moment
+
+
+*******Git****************
+
+
+**************************
+
+
