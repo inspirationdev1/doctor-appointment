@@ -27,6 +27,7 @@ npm i dotenv
 
 cd client
 npm i react-router-dom antd
+npm i antd
 
 import 'antd/dist/antd.css';
 
