@@ -64,6 +64,11 @@ git remote add origin https://github.com/inspirationdev1/doctor-appointment.git
 git branch -M main
 git push -u origin main
 
+git rm --cached ./client
+git add ./client
+git commit -m "added client"
+git push -u origin main
+
 
 URL = https://github.com/inspirationdev1/doctor-appointment
 
