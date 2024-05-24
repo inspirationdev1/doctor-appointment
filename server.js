@@ -7,7 +7,11 @@ const app = express();
 require('dotenv').config()
 const dbConfig = require('./config/dbConfig.js');
 
+<<<<<<< HEAD
 // const __dirname = path.resolve();
+=======
+const __dirname = path.resolve();
+>>>>>>> 11a60f4e315c68971cebff70ba43538e5f39e4cb
 
 app.use(express.json());
 const userRoute = require('./routes/userRoute.js')
@@ -25,7 +29,10 @@ app.get('*', (req, res) => {
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 11a60f4e315c68971cebff70ba43538e5f39e4cb
 const port = process.env.PORT || 5000;
 
 app.listen(port, () => console.log(`Node server started at port ${port}`));
