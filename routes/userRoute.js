@@ -5,7 +5,7 @@ const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const authMiddleware = require("../middlewares/authMiddleware.js");
 const Doctor = require("../models/doctorModel.js");
-const Appointment = require("../models/AppointmentModel.js");
+const Appointment = require("../models/appointmentModel.js");
 const moment = require("moment");
 
 router.post("/register", async (req, res) => {
