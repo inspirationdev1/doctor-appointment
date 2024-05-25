@@ -1,13 +1,12 @@
-// import path from 'path';cl
-const path = require('path');
 const express = require('express');
+const path = require('path');
 const app = express();
 
 
 require('dotenv').config()
 const dbConfig = require('./config/dbConfig.js');
 
-// const __dirname = path.resolve();
+
 
 app.use(express.json());
 const userRoute = require('./routes/userRoute.js')
@@ -18,14 +17,10 @@ const doctorRoute = require('./routes/doctorRoute.js')
 app.use('/api/doctor', doctorRoute);
 
 app.use(express.static(path.join(__dirname, '/client/dist')));
-// app.use(express.static(path.join(__dirname, 'build')));
 
 app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, 'client', 'dist', 'index.html'));
 })
-// app.get('/', function (req, res) {
-//     res.sendFile(path.join(__dirname, 'build', 'index.html'));
-//   });
 
 
 const port = process.env.PORT || 5000;
